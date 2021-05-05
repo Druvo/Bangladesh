@@ -1,14 +1,16 @@
-> About
+Bangladesh information like District, Division, Thana, post code etc.
+This package allows you to direct use those data into the python code.
 
-A python package For bangladesh information like District, Division, Thana, post code and etc
+Under construction! Not ready for use yet! Currently experimenting and planning!
+Developed by Zahid Hasan (c) 2021
 
-> Features
+Examples of How To Use (Alpha Version)
 
-- District list by get_districts();\
-- Division list by get_divisions();\
-- Thana list by get_postcodes();\
-- Thana list by get_upazilas();\
+from bangladesh import get_districts, get_divisions, get_postcodes, get_upazilas
 
-> License
+print(get_districts())
+print(get_divisions())
+print(get_upazilas())
+print(get_postcodes())
 
-This project is under license from Apache. For more details, see the LICENSE file.
+Check out: https://github.com/Druvo/

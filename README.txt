@@ -1,0 +1,1 @@
+Bangladesh information like District, Division, Thana, post code etc. This package allows you to direct use those data into the python code.Under construction! Not ready for use yet! Currently experimenting and planning! Developed by Zahid Hasan (c) 2021 (Alpha Version)

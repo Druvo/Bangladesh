@@ -1,5 +1,5 @@
 <div align="center" id="top"> 
-  <img src="Bangladesh.png" alt="Bangladesh" />
+  <img src="Bangladesh.png" alt="Bangladesh" width="500px"/>
 
 &#xa0;
 
@@ -68,7 +68,7 @@ Before starting :checkered_flag:, you need to have [Python](https://www.python.o
 ## :checkered_flag: Starting
 
 ```bash
-# Clone this project
+# Install this package
 $ pip install bangladesh
 
 

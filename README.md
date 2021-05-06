@@ -1,5 +1,5 @@
 <div align="center" id="top"> 
-  <img src="bangladesh.png" alt="Bangladesh" />
+  <img src="Bangladesh.png" alt="Bangladesh" />
 
 &#xa0;
 
@@ -25,7 +25,7 @@
 </p>
 
 <h4 align="center">
-	🚧  Bangladesh 🚀 Under construction...  🚧
+	🚧  Bangladesh pip package 🚀 Under construction...  🚧
 </h4>
 
 <hr>
@@ -50,7 +50,7 @@ A python package For bangladesh information like District, Division, Thana, post
 
 :heavy_check_mark: Divisions list by - get_divisions();\
 :heavy_check_mark: Districts list by - get_districts();\
-:heavy_check_mark: Upazilas list by - get_upazilas();
+:heavy_check_mark: Upazilas list by - get_upazilas();\
 :heavy_check_mark: Post codes list by - get_postcodes();
 
 
@@ -69,10 +69,8 @@ Before starting :checkered_flag:, you need to have [Python](https://www.python.o
 
 ```bash
 # Clone this project
-$ git clone https://github.com/Druvo/bangladesh
+$ pip install bangladesh
 
-# Access
-$ cd bangladesh
 
 ```
 

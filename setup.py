@@ -1,15 +1,13 @@
 from setuptools import setup, find_packages
-import codecs
-import os
 
-here = os.path.abspath(os.path.dirname(__file__))
 
-with codecs.open(os.path.join(here, "README.md"), encoding="utf-8") as fh:
-    long_description = "\n" + fh.read()
+def get_long_description():
+    with open('README.rst', 'rb') as f:
+        return f.read().decode('utf-8')
 
-VERSION = '0.0.8'
+
+VERSION = '0.0.9'
 DESCRIPTION = 'A python package For Bangladesh information (District, Division, Thana, post code and etc)'
-LONG_DESCRIPTION = ''
 
 setup(
     name="bangladesh",
@@ -17,8 +15,7 @@ setup(
     author="zhdruvo (Zahid Hasan)",
     author_email="<zhdruvo@gmail.com>",
     description=DESCRIPTION,
-    long_description_content_type="text/markdown",
-    long_description=long_description,
+    long_description=get_long_description(),
     packages=find_packages(),
     license='MIT License',
     include_package_data=True,
@@ -26,12 +23,27 @@ setup(
     url='https://github.com/Druvo',
     install_requires=[],
     Platform='python',
-    keywords=['Bangladesh', 'District', 'Division', 'Thana', 'upazilas'],
+    keywords=['bangladesh', 'district', 'division', 'thana', 'upazilas'],
     classifiers=[
-        "Development Status :: 1 - Planning",
+        'Development Status :: 4 - Beta',
         "Intended Audience :: Developers",
-        "Programming Language :: Python :: 3",
+        'Programming Language :: Python',
+        'Programming Language :: Python :: 2.7',
+        'Programming Language :: Python :: 3',
+        'Programming Language :: Python :: 3.4',
+        'Programming Language :: Python :: 3.5',
+        'Programming Language :: Python :: 3.6',
+        'Programming Language :: Python :: 3.7',
+        'Programming Language :: Python :: 3.8',
         "Operating System :: OS Independent",
         "License :: OSI Approved :: MIT License",
+        'Topic :: Software Development',
+        'Topic :: Terminals',
+        'Topic :: Utilities',
+        'Topic :: Communications',
+        'Topic :: Education',
+        'Topic :: Sociology :: Genealogy',
+        'Topic :: System :: Archiving :: Packaging',
     ]
+
 )

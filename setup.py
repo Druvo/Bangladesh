@@ -6,7 +6,7 @@ def get_long_description():
         return f.read().decode('utf-8')
 
 
-VERSION = '0.0.9'
+VERSION = '0.0.10'
 DESCRIPTION = 'A python package For Bangladesh information (District, Division, Thana, post code and etc)'
 
 setup(
@@ -20,7 +20,13 @@ setup(
     license='MIT License',
     include_package_data=True,
     package_data={'': ['data/*.json']},
-    url='https://github.com/Druvo',
+    url='https://github.com/Druvo/Bangladesh',
+    download_url='https://github.com/Druvo/Bangladesh/releases/',
+    project_urls={
+        'Documentation': 'https://github.com/Druvo/Bangladesh/blob/main/README.md',
+        'Source': 'https://github.com/Druvo/Bangladesh',
+        'Tracker': 'https://github.com/Druvo/Bangladesh/issues',
+    },
     install_requires=[],
     Platform='python',
     keywords=['bangladesh', 'district', 'division', 'thana', 'upazilas'],

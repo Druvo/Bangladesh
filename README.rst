@@ -9,7 +9,8 @@ This package allows you to direct use those data into the python code.
 
 :Author: zhdruvo (Zahid Hasan)
 :License: MIT License
-:Home Page: https://github.com/Druvo
+:Home Page: https://github.com/Druvo/Bangladesh
+
 
 Installing
 ----------
